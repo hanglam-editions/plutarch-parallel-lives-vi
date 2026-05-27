@@ -1,0 +1,67 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Những cuộc đời song hành"
+  subtitle: "Plutarch — Tiểu sử các vĩ nhân Hy Lạp và La Mã"
+  author: "Plutarch"
+  date: today
+  language: vi
+  output-file: "nhung-cuoc-doi-song-hanh"
+  
+  chapters:
+    - index.md
+    - part: "volume-1/index.md"
+      chapters:
+        - volume-1/01-essay-on-plutarch.md
+        - volume-1/02-theseus.md
+        - volume-1/03-romulus.md
+        - volume-1/04-comparison-theseus-romulus.md
+        - volume-1/05-lycurgus.md
+        - volume-1/06-numa.md
+        - volume-1/07-comparison-lycurgus-numa.md
+        - volume-1/08-solon.md
+        - volume-1/09-publicola.md
+        - volume-1/10-comparison-solon-publicola.md
+        - volume-1/11-themistocles.md
+        - volume-1/12-camillus.md
+        - volume-1/13-pericles.md
+        - volume-1/14-fabius-maximus.md
+        - volume-1/15-comparison-pericles-fabius.md
+        - volume-1/16-alcibiades.md
+        - volume-1/17-coriolanus.md
+        - volume-1/18-comparison-alcibiades-coriolanus.md
+  
+  search: true
+  sidebar:
+    style: docked
+    collapse-level: 1
+
+lang: vi
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    fontsize: 1.05em
+    linestretch: 1.6
+    include-in-header: analytics.html
+  
+  pdf:
+    documentclass: scrbook
+    pdf-engine: xelatex
+    mainfont: "Noto Serif"
+    sansfont: "Noto Sans"
+    monofont: "Noto Sans Mono"
+    fontsize: 11pt
+    linestretch: 1.4
+    geometry:
+      - margin=2.5cm
+    toc: true
+    toc-depth: 2
+  
+  epub:
+    toc: true
+    toc-depth: 2
