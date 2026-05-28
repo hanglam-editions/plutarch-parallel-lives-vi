@@ -19,28 +19,28 @@
 - Fabius Maximus
 - So sánh Pericles và Fabius Maximus
 - Alcibiades
-- Caïus Marcius Coriolanus
+- Coriolanus
 - So sánh Alcibiades và Coriolanus
 
 **Quyển thứ hai**
 
-- Timoléon
-- Paul Émile
-- So sánh Timoléon và Paul Émile
+- Timoleon
+- Aemilius Paullus
+- So sánh Timoleon và Aemilius Paullus
 - Pelopidas
 - Marcellus
 - So sánh Pelopidas và Marcellus
 - Aristides
-- Marcus Caton
-- So sánh Aristides và Marcus Caton
+- Marcus Cato
+- So sánh Aristides và Marcus Cato
 - Philopoemen
-- Titus Quintius Flamininus
-- So sánh Philopoemen và Titus Quintius Flamininus
+- Flamininus
+- So sánh Philopoemen và Flamininus
 - Pyrrhus
 - Marius
 - Lysander
-- Sylla
-- So sánh Lysander và Sylla
+- Sulla
+- So sánh Lysander và Sulla
 
 **Quyển thứ ba**
 

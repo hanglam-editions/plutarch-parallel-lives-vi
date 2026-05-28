@@ -32,7 +32,26 @@ book:
         - volume-1/16-alcibiades.md
         - volume-1/17-coriolanus.md
         - volume-1/18-comparison-alcibiades-coriolanus.md
-  
+    - part: "volume-2/index.md"
+      chapters:
+        - volume-2/01-timoleon.md
+        - volume-2/02-aemilius-paullus.md
+        - volume-2/03-comparison-timoleon-aemilius.md
+        - volume-2/04-pelopidas.md
+        - volume-2/05-marcellus.md
+        - volume-2/06-comparison-pelopidas-marcellus.md
+        - volume-2/07-aristides.md
+        - volume-2/08-marcus-cato.md
+        - volume-2/09-comparison-aristides-cato.md
+        - volume-2/10-philopoemen.md
+        - volume-2/11-flamininus.md
+        - volume-2/12-comparison-philopoemen-flamininus.md
+        - volume-2/13-pyrrhus.md
+        - volume-2/14-marius.md
+        - volume-2/15-lysander.md
+        - volume-2/16-sulla.md
+        - volume-2/17-comparison-lysander-sulla.md
+
   search: true
   sidebar:
     style: docked
