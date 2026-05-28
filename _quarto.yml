@@ -11,6 +11,7 @@ book:
   output-file: "nhung-cuoc-doi-song-hanh"
   
   chapters:
+    - loi-gioi-thieu.md
     - index.md
     - part: "volume-1/index.md"
       chapters:
