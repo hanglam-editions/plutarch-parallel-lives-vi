@@ -1,0 +1,123 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Những cuộc đời song hành"
+  subtitle: "Plutarch — Tiểu sử các vĩ nhân Hy Lạp và La Mã"
+  author: "Plutarch"
+  date: today
+  language: vi
+  output-file: "nhung-cuoc-doi-song-hanh"
+  
+  chapters:
+    - loi-gioi-thieu.md
+    - index.md
+    - part: "volume-1/index.md"
+      chapters:
+        - volume-1/01-essay-on-plutarch.md
+        - volume-1/02-theseus.md
+        - volume-1/03-romulus.md
+        - volume-1/04-comparison-theseus-romulus.md
+        - volume-1/05-lycurgus.md
+        - volume-1/06-numa.md
+        - volume-1/07-comparison-lycurgus-numa.md
+        - volume-1/08-solon.md
+        - volume-1/09-publicola.md
+        - volume-1/10-comparison-solon-publicola.md
+        - volume-1/11-themistocles.md
+        - volume-1/12-camillus.md
+        - volume-1/13-pericles.md
+        - volume-1/14-fabius-maximus.md
+        - volume-1/15-comparison-pericles-fabius.md
+        - volume-1/16-alcibiades.md
+        - volume-1/17-coriolanus.md
+        - volume-1/18-comparison-alcibiades-coriolanus.md
+    - part: "volume-2/index.md"
+      chapters:
+        - volume-2/01-timoleon.md
+        - volume-2/02-aemilius-paullus.md
+        - volume-2/03-comparison-timoleon-aemilius.md
+        - volume-2/04-pelopidas.md
+        - volume-2/05-marcellus.md
+        - volume-2/06-comparison-pelopidas-marcellus.md
+        - volume-2/07-aristides.md
+        - volume-2/08-marcus-cato.md
+        - volume-2/09-comparison-aristides-cato.md
+        - volume-2/10-philopoemen.md
+        - volume-2/11-flamininus.md
+        - volume-2/12-comparison-philopoemen-flamininus.md
+        - volume-2/13-pyrrhus.md
+        - volume-2/14-marius.md
+        - volume-2/15-lysander.md
+        - volume-2/16-sulla.md
+        - volume-2/17-comparison-lysander-sulla.md
+    - part: "volume-3/index.md"
+      chapters:
+        - volume-3/01-cimon.md
+        - volume-3/02-lucullus.md
+        - volume-3/03-comparison-cimon-lucullus.md
+        - volume-3/04-nicias.md
+        - volume-3/05-crassus.md
+        - volume-3/06-comparison-nicias-crassus.md
+        - volume-3/07-sertorius.md
+        - volume-3/08-eumenes.md
+        - volume-3/09-comparison-sertorius-eumenes.md
+        - volume-3/10-agesilaus.md
+        - volume-3/11-pompey.md
+        - volume-3/12-comparison-agesilaus-pompey.md
+        - volume-3/13-alexander.md
+        - volume-3/14-caesar.md
+        - volume-3/15-comparison-alexander-caesar.md
+        - volume-3/16-phocion.md
+        - volume-3/17-cato-the-younger.md
+        - volume-3/18-comparison-phocion-cato.md
+        - volume-3/19-demosthenes.md
+        - volume-3/20-cicero.md
+        - volume-3/21-comparison-demosthenes-cicero.md
+        - volume-3/22-agis-cleomenes.md
+        - volume-3/23-tiberius-gaius-gracchus.md
+        - volume-3/24-comparison-agis-gracchus.md
+        - volume-3/25-demetrius.md
+        - volume-3/26-antony.md
+        - volume-3/27-comparison-demetrius-antony.md
+        - volume-3/28-dion.md
+        - volume-3/29-brutus.md
+        - volume-3/30-comparison-dion-brutus.md
+        - volume-3/31-artaxerxes.md
+        - volume-3/32-aratus.md
+        - volume-3/33-galba.md
+        - volume-3/34-otho.md
+
+  search: true
+  sidebar:
+    style: docked
+    collapse-level: 1
+
+lang: vi
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    fontsize: 1.05em
+    linestretch: 1.6
+    include-in-header: analytics.html
+  
+  pdf:
+    documentclass: scrbook
+    pdf-engine: xelatex
+    mainfont: "Noto Serif"
+    sansfont: "Noto Sans"
+    monofont: "Noto Sans Mono"
+    fontsize: 11pt
+    linestretch: 1.4
+    geometry:
+      - margin=2.5cm
+    toc: true
+    toc-depth: 2
+  
+  epub:
+    toc: true
+    toc-depth: 2
