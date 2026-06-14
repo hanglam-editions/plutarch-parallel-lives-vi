@@ -6,29 +6,29 @@ Plutarch (khoảng 46–120 CN) là nhà văn, nhà triết học và sử gia n
 
 *Những cuộc đời song hành* (tiếng Hy Lạp: Βίοι Παράλληλοι) gồm 48 tiểu sử được sắp xếp thành từng cặp đôi: mỗi cặp đặt một nhân vật Hy Lạp vĩ đại bên cạnh một nhân vật La Mã tương đương, rồi so sánh đức hạnh và phẩm cách của họ. Theseus — Romulus, Lycurgus — Numa, Pericles — Fabius Maximus, Caesar — Alexander… Đây không đơn thuần là lịch sử — đây là bài học đạo đức được viết bằng máu, mồ hôi và sự hào hùng của những con người có thật.
 
-Plutarch không viết biên niên sử. Ông tuyên bố: *"Tôi không viết Lịch sử, tôi viết Tiểu sử."* Điều ông theo đuổi là tính cách — những khoảnh khắc nhỏ bé tiết lộ bản chất thực sự của con người vĩ đại.
+Plutarch không viết biên niên sử. Ông tuyên bố: *"Tôi không viết Lịch sử, tôi viết Tiểu sử."* Điều ông theo đuổi là tính cách — những khoảnh khắc nhỏ bé tiết lộ bản chất thực sự của những con người vĩ đại.
 
-## Tầm ảnh hưởng với nền văn minh châu Âu
+## Ảnh hưởng lên nền văn minh châu Âu
 
 Ít tác phẩm nào trong lịch sử nhân loại có ảnh hưởng sâu rộng và lâu dài với văn minh phương Tây như *Những cuộc đời song hành*. Suốt mười lăm thế kỷ, từ thời Trung Cổ đến thế kỷ XIX, tác phẩm này được coi là sách giáo khoa tối thượng về đạo đức và lãnh đạo.
 
-**Thời Phục Hưng (thế kỷ XV–XVI):** Plutarch được dịch sang Latin, rồi sang các ngôn ngữ hiện đại. Tư tưởng về đức hạnh công dân trở thành nền tảng của triết học chính trị nhân văn. Michel de Montaigne trong *Những suy ngẫm* (*Essais*) liên tục trích dẫn Plutarch — ông gọi đây là "thứ sách tôi yêu nhất."
+**Thời Phục Hưng (thế kỷ XV–XVI):** Plutarch được dịch sang tiếng Latin, rồi sang các ngôn ngữ hiện đại. Tư tưởng về đức hạnh công dân trở thành nền tảng của triết học chính trị nhân văn. Michel de Montaigne trong *Những suy ngẫm* (*Essais*) liên tục trích dẫn Plutarch — ông gọi đây là "thể loại sách tôi yêu thích nhất."
 
-**Sân khấu Shakespeare:** William Shakespeare viết ba vở bi kịch vĩ đại về La Mã — *Julius Caesar*, *Antony and Cleopatra* và *Coriolanus* — dựa trực tiếp vào *Những cuộc đời song hành* qua bản dịch tiếng Anh của Thomas North (1579). Nhiều đoạn độc thoại nổi tiếng nhất của Shakespeare chính là Plutarch được diễn đạt lại bằng thơ.
+**Sân khấu Shakespeare:** William Shakespeare viết ba vở bi kịch vĩ đại về La Mã — *Julius Caesar*, *Antony và Cleopatra*, *Coriolanus* — dựa trực tiếp vào *Những cuộc đời song hành* qua bản dịch tiếng Anh của Thomas North (1579). Nhiều đoạn độc thoại nổi tiếng của Shakespeare chính là Plutarch được diễn đạt lại bằng thơ.
 
 **Cách mạng Mỹ và Pháp:** Các nhà lập quốc Hoa Kỳ — George Washington, Alexander Hamilton, John Adams — đều học Plutarch. Họ lấy từ đó những hình mẫu đức hạnh cộng hòa: Cincinnatus, Cato, Publicola. Trong cơn sốt cách mạng Pháp, Plutarch được đọc như kinh thánh của lý tưởng tự do.
 
 ## Những độc giả lừng danh
 
 > *"Plutarch là nguồn sữa nuôi dưỡng tôi từ thuở ấu thơ."*  
-> — **Jean-Jacques Rousseau**, *Những lời bộc bạch* (*Les confessions*) (1782)
+> — **Jean-Jacques Rousseau** (1712-1778), *Những lời bộc bạch* (*Les confessions*)
 
 > *"Không có cuốn sách nào tôi thích đọc hơn Plutarch."*  
-> — **Michel de Montaigne**, *Những suy ngẫm* (*Essais*) (1580)
+> — **Michel de Montaigne** (1533-1592), *Những suy ngẫm* (*Essais*) 
 
 **Napoléon Bonaparte** luôn mang theo Plutarch trong các chiến dịch quân sự. Ông đọc tác phẩm này lần đầu khi còn là học sinh nghèo tại Brienne, và nó đã định hình toàn bộ lý tưởng của ông về sự vĩ đại. Theo lời những người thân cận, đây là cuốn sách ông quý nhất trong thư viện dã chiến của mình.
 
-**William Shakespeare** trực tiếp khai thác Plutarch cho ba vở bi kịch La Mã. Không có Plutarch, không có *Julius Caesar*, không có *Antony and Cleopatra*.
+**William Shakespeare** trực tiếp khai thác Plutarch cho ba vở bi kịch La Mã. Không có Plutarch, không có *Julius Caesar*, không có *Antony và Cleopatra*.
 
 **Jean-Jacques Rousseau** kể trong *Những lời bộc bạch* rằng ông đọc *Những cuộc đời song hành* từ năm lên tám tuổi cùng cha, và đây là tác phẩm đã *"tạo ra con người tôi."*
 

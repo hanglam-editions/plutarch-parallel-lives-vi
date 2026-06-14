@@ -1,5 +1,47 @@
 # Changelog
 
+## [v0.1.14] - 2026-06-14
+
+### Changed
+- Fine translation corrections across 12 files based on translator's manual revisions:
+
+  **Proper name normalization (French → Latin/English/Greek)**
+  - `loi-gioi-thieu.md`: Antony and Cleopatra → Antony và Cleopatra
+  - `volume-1/02-theseus.md`: Scythie→Scythia, Sénécion→Senecio, Pitthéus→Pittheus,
+    Éthra→Aethra, Érechthée→Erechtheus, Hippolyte→Hippolytus, Phèdre→Phaedra,
+    Pirithoüs→Pirithous, Hélène→Helen, Ménesthée→Menestheus, Aïdonéus→Aidoneus,
+    Lycomède→Lycomedes, Pasiphaé→Pasiphaë, Apollon→Apollo, Vénus→Aphrodite,
+    Dicéarque de Messène→Dicearchus xứ Messana, Dioclès de Péparèthe→Diocles xứ Peparethus
+  - `volume-1/03-romulus.md`: Énée→Aeneas, Dioclès de Péparèthe→Diocles xứ Peparethus
+  - `volume-1/05-lycurgus.md`: Timée→Timaeus, Créophyle→Creophylus
+  - `volume-1/08-solon.md`: Crésus→Croesus, Junon→Hera, Timée→Timaeus,
+    Aréopage→Areopagus, Atlantide→Atlantis, Épia→Aepeia, Thètes→Thetes,
+    Pentacosiomédimnes→Pentacosiomedimnoi, Exécestide→Execestides
+  - `volume-1/09-publicola.md`: Valérius→Valerius (30×), Valéria→Valeria (3×),
+    Lucrèce→Lucretia (4×), Lucrétius→Lucretius (4×), Clélie→Cloelia,
+    Scévola→Scaevola, Coclès→Cocles, Démarate→Demaratus, Véies→Veii (6×),
+    Fidènes→Fidenae (3×), Vélia→Velia, Pentèle→Pentelicus, Épicharme→Epicharmus,
+    Athénodore→Athenodorus, Anaximène→Anaximenes, Pluton→Pluto,
+    Champs-de-Mars→Campus Martius, Denys d'Halicarnassus→Dionysius of Halicarnassus,
+    calendes Mars→Calends of March
+  - `volume-1/10-comparison-solon-publicola.md`: Mimnerme→Mimnermus,
+    Daïmachus de Plataeas→Daimachus of Plataea, Strabon→Strabo
+
+  **Vocabulary and style improvements (all affected files)**
+  - `bậc thầy` → `thầy giáo` when referring to a person
+  - `không mảy may quan trọng` → `không mấy quan trọng`
+  - `những đức hạnh của mình` → `đức hạnh của mình`
+  - `truyền thuyết được tin nhận nhất` → `truyền thuyết đáng tin nhất`
+  - `các năm X đến Y` → `năm X đến năm Y` in date ranges
+  - Sentence restructuring for better Vietnamese flow throughout
+
+  **`loi-gioi-thieu.md`**
+  - Header: `Tầm ảnh hưởng với nền văn minh châu Âu` → `Ảnh hưởng lên nền văn minh châu Âu`
+  - Add birth years to Rousseau (1712–1778) and Montaigne (1533–1592) quotes
+
+### Removed
+- `PROJET-RESUME.md` (working note, not part of the publication)
+
 ## [v0.1.13] - 2026-06-02
 
 ### Fixed
