@@ -1,6 +1,7 @@
 _book/
 .quarto/
 *.tex
+!pdf-header.tex
 *.log
 .DS_Store
 /.quarto/

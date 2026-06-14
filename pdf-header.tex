@@ -1,0 +1,15 @@
+\usepackage{scrlayer-scrpage}
+\clearpairofpagestyles
+\setkomafont{pageheadfoot}{\small\normalfont}
+
+% En-tête : titre du livre (intérieur) + titre du chapitre (extérieur)
+\ihead{Những cuộc đời song hành}
+\ohead{\leftmark}
+
+% Pied de page : crédit traductrice + version (intérieur) + numéro de page (extérieur)
+\ifoot{\footnotesize Bản dịch của Hằng Lãm. Version 0.1.14.}
+\ofoot{\pagemark}
+
+% Forcer ce style sur toutes les pages, y compris début de chapitre
+\pagestyle{scrheadings}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
