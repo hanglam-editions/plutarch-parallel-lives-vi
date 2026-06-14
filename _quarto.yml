@@ -1,6 +1,7 @@
 project:
   type: book
   output-dir: _book
+  pre-render: set-version.py
 
 book:
   title: "Những cuộc đời song hành"

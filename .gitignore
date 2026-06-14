@@ -8,4 +8,5 @@ _book/
 **/*.quarto_ipynb
 /*_files/
 PROJET-RESUME.md
+pdf-version.tex
 
