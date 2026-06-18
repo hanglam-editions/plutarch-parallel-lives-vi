@@ -1,5 +1,40 @@
 # Changelog
 
+## [v0.1.15] - 2026-06-18
+
+### Changed
+- Second round of fine translation corrections on Solon, Publicola and their comparison:
+
+  **Terminology**
+  - `tổng tài` → `quan chấp chính` throughout `09-publicola.md` and `10-comparison-solon-publicola.md` (~25 occurrences)
+  - `archonte` → `archon` in `08-solon.md`
+
+  **Proper name normalization**
+  - `Tibre` → `Tiber` (river, body text and footnotes)
+  - `Clinias` → `Cleinias` (correct Greek spelling)
+  - `Heraclides of Pontus` → `Heraclides xứ Pontus`
+  - `Dionysius of Halicarnassus` → `Dionysius xứ Halicarnassus` (footnotes)
+  - `Daimachus of Plataea` → `Daimachus xứ Plataea`
+  - `Eumenides` (was `Euménides`) in footnote
+
+  **Vocabulary and style**
+  - `nhận lấy [gia sản]` → `thừa hưởng`
+  - `một lần nữa` → `một lần khác` (another occasion, not "once more")
+  - `uy tín đã lớn lao` → `uy tín lớn lao` (remove redundant `đã` before adjective)
+  - `hận thù triệt để` → `hận thù sâu sắc`
+  - `bực bội` → `phiền thoái`
+  - Long sentences split into two for readability
+
+  **Footnotes**
+  - Meta-words rendered in English: `imitateur`→`imitator`, `témoin`→`witness`
+  - Chinese character (跛) replaced with Vietnamese text
+  - Monetary conversion annotated with source date: `(tiền Pháp năm 1853)`
+  - Footnote [^p9]: simplified wording
+
+### Added
+- PDF custom headers and footers via `scrlayer-scrpage` (`pdf-header.tex`)
+- Auto-versioning: `set-version.py` pre-render script injects git tag into PDF footer
+
 ## [v0.1.14] - 2026-06-14
 
 ### Changed
