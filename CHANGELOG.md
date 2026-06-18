@@ -1,5 +1,47 @@
 # Changelog
 
+## [v0.1.16] - 2026-06-18
+
+### Changed
+- Proper name normalization across Themistocles, Camillus, Pericles and Fabius Maximus:
+
+  **Deity names (Greek/Roman rule applied)**
+  - `11-themistocles.md` (Greek): `Hercules`→`Heracles` (3×), `Bacchus`→`Dionysus` (2×),
+    `Minerve`→`Athena` (2×), `Apollon Daphnéphore`→`Apollo Daphnephoros`
+  - `12-camillus.md` (Roman): `Junon`→`Juno` (5×); `Heraclides` collateral damage fixed
+  - `13-pericles.md` (Greek): `Minerve`→`Athena` (4×), `Junon`→`Hera`, `Diane`→`Artemis`,
+    `Minerve Hygie`→`Athena Hygieia`
+
+  **Proper names (French → English/Latin/Greek)**
+  - `11-themistocles.md`: `Athénée`→`Athenaeus`, `Artémisium`→`Artemisium`,
+    `Artémise`→`Artemisia`, `Ariamène`→`Ariamenes`, `Admète`→`Admetus`,
+    `Magnésie`→`Magnesia`, `Simonide`→`Simonides`, `Léonidas`→`Leonidas`,
+    `Néoclès`→`Neocles`, `Lycomèdes`→`Lycomedes`, `Néanthès`→`Neanthes`,
+    `Amphictyonie`→`Amphictyony`, `Théopompe`→`Theopompus`,
+    `Timocréon`→`Timocreon`, `Egine`→`Aegina`, `Mèdes`→`Medes`,
+    `Magnésie`→`Magnesia`, `Épire`→`Epirus`, and ~25 more
+  - `12-camillus.md`: `Cornélius Scipion`→`Cornelius Scipio`, `Mère Matuta`→`Mater Matuta`,
+    `Tibre`→`Tiber` (3×), `Ardée`→`Ardea`, `Véies`→`Veii`, `Véiens`→`Veians`,
+    `Lucrétius`→`Lucretius`, `Valérius`→`Valerius`, `Féries Latines`→`Feriae Latinae`,
+    `Falèries`→`Falerii`, `Leucothée`→`Leucothea`, `Callisthène`→`Callisthenes`,
+    `Préneste`→`Praeneste`, `Sénonais`→`Senones`, and ~15 more
+  - `13-pericles.md`: `Aspasie`→`Aspasia` (9×), `Aréopage`→`Areopagus`,
+    `Acropole`→`Acropolis`, `Éphialte`→`Ephialtes`, `Propylées`→`Propylaea`,
+    `Parthénon`→`Parthenon`, `Clisthène`→`Cleisthenes`, `Potidée`→`Potidaea`,
+    `Priène`→`Priene`, `Déméter`→`Demeter`, `Stésimbrote`→`Stesimbrotus`,
+    `Mnésiclès`→`Mnesicles`, `Clazomène`→`Clazomenae`, and ~20 more
+  - `14-fabius-maximus.md`: `Cornélius`→`Cornelius`, `Thrasymène`→`Trasimene`,
+    `Trébie`→`Trebia`, `Ibérie`→`Iberia`, `Persée`→`Perseus`, `Rhégium`→`Rhegium`,
+    `Faléries`→`Falerii`, `Lévinus`→`Laevinus`, and ~10 more
+
+  **Scholarly attributions (xứ pattern)**
+  - `Simonides xứ Ceos`, `Charon xứ Lampsacus`, `Neanthes xứ Cyzicus`
+  - `Heraclides xứ Pontus`, `Corœbus xứ Xypete` (Pericles)
+
+  **Terminology**
+  - `archonte`→`archon` in Themistocles
+  - `các bậc thầy của truyền thống`→`các thầy giáo của truyền thống`
+
 ## [v0.1.15] - 2026-06-18
 
 ### Changed
