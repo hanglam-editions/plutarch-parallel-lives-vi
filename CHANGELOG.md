@@ -1,5 +1,52 @@
 # Changelog
 
+## [v0.1.17] - 2026-06-19
+
+### Changed
+- Proper name normalization across all volume-2 files (17 files):
+
+  **Deity names (Greek/Roman context rule applied)**
+  - Greek lives: `Cérès`→`Demeter`, `Proserpine`→`Persephone`, `Vénus`→`Aphrodite`,
+    `Apollon`→`Apollo`, `Bacchus`→`Dionysus`, `Hercules`→`Heracles`, `Mars`→`Ares`
+  - Roman lives: `Vénus`→`Venus`, `Cérès`→`Ceres`, `Cybèle`→`Cybele`
+
+  **Proper names (French → English/Latin/Greek) per file**
+  - `04-pelopidas.md` (Greek): `Mélon`→`Melon`, `Tégyre`→`Tegyra`, `Thrasybule`→`Thrasybulus`,
+    `Phœbidas`→`Phoebidas`, `Thessalie`→`Thessaly`, `Arcadie`→`Arcadia`, `Messénie`→`Messenia`,
+    `Pharsale`→`Pharsalus`, `Mède`→`Mede`, `Iliade`→`Iliad`, `Orphée`→`Orpheus`,
+    `Andromaque`→`Andromache`, `Thébé`→`Thebe`, `Phères`→`Pherae`, and ~25 more
+  - `05-marcellus.md` (Roman): `Annibal`→`Hannibal` (40×), `Cornélius`→`Cornelius`,
+    `Hiéron`→`Hiero`, `Hiéronymus`→`Hieronymus`, `Briarée`→`Briareus`,
+    `Néapolis`→`Neapolis`, `Férétrien`→`Feretrian`, `Philoctète`→`Philoctetes`,
+    `Vénuse`→`Venusia`, `Valère Maxime`→`Valerius Maximus`, and ~15 more
+  - `06-comparison-pelopidas-marcellus.md`: `Tégyre`→`Tegyra`, `Cyropédie`→`Cyropaedia`
+  - `07-aristides.md` (Greek): `Phalère`→`Phaleron`, `Cithéron`→`Cithaeron`,
+    `Cratérus`→`Craterus`, `Panétius`→`Panaetius`, `Clisthène`→`Cleisthenes`,
+    `Tisamène`→`Tisamenus`, `Boëdromion`→`Boedromion`, `Eucléia`→`Eucleia`, and ~15 more
+  - `08-marcus-cato.md` (Roman): `Valérius`→`Valerius` (9×), `Achaïe`→`Achaea`,
+    `Carnéade`→`Carneades`, `Démosthène`→`Demosthenes`, `Académie`→`Academy`,
+    `Pyrénées`→`Pyrenees`, `Odyssée`→`Odyssey`, and ~10 more
+  - `09-comparison-aristides-cato.md`: `Hérodote`→`Herodotus`, `Cynégire`→`Cynegirus`,
+    `Hésiode`→`Hesiod`
+  - `10-philopoemen.md` (Greek): `Mégalopolis`→`Megalopolis`, `Cléomène`→`Cleomenes`,
+    `Dinocratès`→`Dinocrates`, `Mantinée`→`Mantinea`, `Diophanès`→`Diophanes`, and ~10 more
+  - `11-flamininus.md` (Roman): `Cynoscéphales`→`Cynoscephalae`, `Alcée`→`Alcaeus`,
+    `Héraclée`→`Heraclea`, `Magnésie`→`Magnesia`, `Eumène`→`Eumenes`, and ~12 more
+  - `12-comparison-philopoemen-flamininus.md`: `Archédémos`→`Archedemus`
+  - `13-pyrrhus.md` (Greek): `Cléonyme`→`Cleonymus`, `Gélon`→`Gelon`, `Lévinus`→`Laevinus`,
+    `Déidamie`→`Deidameia`, `Bérénice`→`Berenice`, `Héraclée`→`Heraclea`,
+    `Alcyonée`→`Alcyoneus`, `Bénévent`→`Beneventum`, and ~25 more
+  - `14-marius.md` (Roman): `Métellus`→`Metellus` (38×), `Annibal`→`Hannibal`,
+    `Pompéius`→`Pompeius`, `Rhône`→`Rhone`, `Bardiéens`→`Bardyaei`,
+    `Aquœ Sextiœ`→`Aquae Sextiae`, `Orphée`→`Orpheus`, and ~30 more
+  - `15-lysander.md` (Greek): `Chersonèse`→`Chersonesus`, `Léotychidas`→`Leotychidas`,
+    `Théopompe`→`Theopompus`, `Théramène`→`Theramenes`, `Artaxerxès`→`Artaxerxes`,
+    `Aphytée`→`Aphytaean`, `Silénus`→`Silenus`, `Athéna`→`Athena`, and ~20 more
+  - `16-sulla.md` (Roman): `Métella`→`Metella` (10×), `Muréna`→`Murena` (6×),
+    `Préneste`→`Praeneste` (5×), `Céramique`→`Ceramicus`, `Callisthène`→`Callisthenes`,
+    `Tarpéienne`→`Tarpeian`, `Chaldée`→`Chaldea`, and ~25 more
+  - `17-comparison-lysander-sulla.md`: `Philoclès`→`Philocles`, `Cléombrotus`→`Cleombrotus`
+
 ## [v0.1.16] - 2026-06-18
 
 ### Changed
