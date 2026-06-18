@@ -1,5 +1,81 @@
 # Changelog
 
+## [v0.1.18] - 2026-06-19
+
+### Changed
+- Proper name normalization across all volume-3 files (34 files):
+
+  **Deity names (Greek/Roman context rule applied)**
+  - Greek lives: `Cérès`→`Demeter`, `Jupiter`→`Zeus`, `Bacchus`→`Dionysus`,
+    `Hercule`→`Heracles`, `Junon`→`Hera`, `Phébus`→`Phoebus`
+  - Roman lives: `Vénus`→`Venus`, `Cérès`→`Ceres`, `Bacchus` stays, `Jupiter` stays
+
+  **Proper names (French → English/Latin/Greek) per file**
+  - `01-cimon.md` (Greek): `Athènes`→`Athens` (66×), `Lacédémoniens`→`Lacedaemonians`,
+    `Stésimbrote`→`Stesimbrotus`, `Hermès`→`Hermes`, `Rhœsacès`→`Rhoesaces`, and ~20 more
+  - `02-lucullus.md` (Roman): `Ptolémée`→`Ptolemy`, `Muréna`→`Murena`, `Séleucie`→`Seleucia`,
+    `Mésopotamie`→`Mesopotamia`, `Gordyène`→`Gordyene`, and ~25 more
+  - `03-comparison-cimon-lucullus.md`: `Orphée`→`Orpheus`, `Athènes`→`Athens`,
+    `Léothychide`→`Leotychides`, `Hésiode`→`Hesiod`, `Homère`→`Homer`
+  - `04-nicias.md` (Greek): `Athènes`→`Athens` (81×), `Lacédémoniens`→`Lacedaemonians`,
+    `Cléon`→`Cleon` (16×), `Hermès`→`Hermes`, `Sphactérie`→`Sphacteria`, and ~35 more
+  - `05-crassus.md` (Roman): `Suréna`→`Surena` (28×), `Hyrodès`→`Hyrodes` (16×),
+    `Artavasdès`→`Artavasdes`, `Déjotarus`→`Deiotarus`, `Mésopotamie`→`Mesopotamia`, and ~20 more
+  - `06-comparison-nicias-crassus.md`: minor fixes
+  - `07-sertorius.md` (Roman): `Métellus`→`Metellus` (29×), `Antée`→`Antaeus`,
+    `Pyrénées`→`Pyrenees`, `Gadès`→`Gades`, `Bétis`→`Baetis`, and ~15 more
+  - `08-eumenes.md` (Greek): `Macédoine`→`Macedonia` (35×), `Cratère`→`Craterus` (22×),
+    `Néoptolème`→`Neoptolemus` (17×), `Héphestion`→`Hephaestion`, `Cérès`→`Demeter`, and ~25 more
+  - `09-comparison-sertorius-eumenes.md`: `Chersonèse`→`Chersonesus`, `Macédoine`→`Macedonia`
+  - `10-agesilaus.md` (Greek): `Lacédémone`→`Lacedaemon` (60×), `Thébains`→`Thebans` (32×),
+    `Xénophon`→`Xenophon` (11×), `Béotie`→`Boeotia` (9×), `Thèbes`→`Thebes`, and ~40 more
+  - `11-pompey.md` (Roman): `Métellus`→`Metellus` (30×), `Cornélie`→`Cornelia` (14×),
+    `Arménie`→`Armenia` (12×), `Cléopâtre`→`Cleopatra`, `Ptolémée`→`Ptolemy`, and ~50 more
+  - `12-comparison-agesilaus-pompey.md`: `Sparte`→`Sparta`, `Thébains`→`Thebans`,
+    `Lacédémoniens`→`Lacedaemonians`, `Léotychidas`→`Leotychidas`, `Lépidus`→`Lepidus`
+  - `13-alexander.md` (Greek): `Macédonie`→`Macedonia` (91×), `Callisthène`→`Callisthenes` (27×),
+    `Parménion`→`Parmenion` (25×), `Jupiter`→`Zeus` (12×), `Bacchus`→`Dionysus` (8×),
+    `Hercule`→`Heracles` (4×), `Cléopâtre`→`Cleopatra`, `Héphestion`→`Hephaestion`, and ~80 more
+  - `14-caesar.md` (Roman): `Pompéia`→`Pompeia` (7×), `Métellus`→`Metellus`,
+    `Cléopâtre`→`Cleopatra`, `Scipion`→`Scipio` (16×), `Helvétiens`→`Helvetii`,
+    `Idées de mars`→`Ides of March`, `Rhône`→`Rhone`, `Saône`→`Saone`, and ~40 more
+  - `15-comparison-alexander-caesar.md`: no changes needed
+  - `16-phocion.md` (Greek): `Athénien`→`Athenian` (83×), `Athènes`→`Athens` (35×),
+    `Démade`→`Demades` (16×), `Pirée`→`Piraeus`, `Eubée`→`Euboea`, and ~60 more
+  - `17-cato-the-younger.md` (Roman): `Métellus`→`Metellus` (26×), `Cépion`→`Caepio`,
+    `Ptolémée`→`Ptolemy`, `Muréna`→`Murena`, `Stoïciens`→`Stoics`, and ~25 more
+  - `18-comparison-phocion-cato.md`: no changes needed
+  - `19-demosthenes.md` (Greek): `Athénien`→`Athenian` (34×), `Macédonie`→`Macedonia` (19×),
+    `Démade`→`Demades` (11×), `Déméter`→`Demeter`, `Perséphone`→`Persephone`, and ~50 more
+  - `20-cicero.md` (Roman): `Térentia`→`Terentia` (11×), `Verrès`→`Verres` (7×),
+    `Céthégus`→`Cethegus` (7×), `Métellus`→`Metellus`, `Carnéade`→`Carneades`, and ~30 more
+  - `21-comparison-demosthenes-cicero.md`: `Macédonie`→`Macedonia`, `Mécène`→`Maecenas`,
+    `Anaximène`→`Anaximenes`, and ~10 more
+  - `22-agis-cleomenes.md` (Greek): `Lacédémone`→`Lacedaemon` (56×), `Achéens`→`Achaeans` (54×),
+    `Léonidas`→`Leonidas` (40×), `Junon`→`Hera` (4×), `Hercule`→`Heracles` (4×),
+    `Sparte`→`Sparta` (76×), `Ptolémée`→`Ptolemy`, and ~80 more
+  - `23-tiberius-gaius-gracchus.md` (Roman): `Cornélie`→`Cornelia` (11×),
+    `Lélius`→`Laelius`, `Septimuléius`→`Septimuleius`, `Idées de mars`→`Ides of March`, and ~20 more
+  - `24-comparison-agis-gracchus.md`: `Charilaüs`→`Charillus`, `Péloponnèse`→`Peloponnese`
+  - `25-demetrius.md` (Greek): `Séleucus`→`Seleucus` (66×), `Athènes`→`Athens` (58×),
+    `Ptolémée`→`Ptolemy` (41×), `Cérès`→`Demeter`, `Stratoclès`→`Stratocles`, and ~60 more
+  - `26-antony.md` (Roman): `Cléopâtre`→`Cleopatra` (115×), `Lépidus`→`Lepidus` (22×),
+    `Arménie`→`Armenia` (22×), `Mèdes`→`Medes` (12×), `Vénus`→`Venus`, and ~70 more
+  - `27-comparison-demetrius-antony.md`: `Cléopâtre`→`Cleopatra`, `Athènes`→`Athens`, and ~5 more
+  - `28-dion.md` (Greek): `Héraclide`→`Heraclides` (38×), `Athènes`→`Athens` (13×),
+    `Gélon`→`Gelo`, `Timée`→`Timaeus`, `Cérès`→`Demeter`, and ~30 more
+  - `29-brutus.md` (Roman): `Labéon`→`Labeo`, `Lénas`→`Lenas`, `Pataréens`→`Patareans`,
+    `Trébonius`→`Trebonius`, `Lépidus`→`Lepidus`, and ~20 more
+  - `30-comparison-dion-brutus.md`: no changes needed
+  - `31-artaxerxes.md`: `Ctésias`→`Ctesias` (24×), `Cléarque`→`Clearchus` (20×),
+    `Lacédémone`→`Lacedaemon` (16×), `Xénophon`→`Xenophon`, and ~30 more
+  - `32-aratus.md` (Greek): `Achéens`→`Achaeans` (75×), `Macédonie`→`Macedonia` (23×),
+    `Lysiadès`→`Lysiades` (13×), `Ptolémée`→`Ptolemy` (11×), `Sparte`→`Sparta`, and ~60 more
+  - `33-galba.md` (Roman): `Néron`→`Nero` (61×), `Poppée`→`Poppaea` (8×),
+    `Sénèque`→`Seneca`, `Suétone`→`Suetonius`, `Tibère`→`Tiberius`, and ~20 more
+  - `34-otho.md` (Roman): `Cécina`→`Caecina` (15×), `Néron`→`Nero` (7×),
+    `Bédriacum`→`Bedriacum`, `Mésie`→`Moesia`, `Crémone`→`Cremona`
+
 ## [v0.1.17] - 2026-06-19
 
 ### Changed
